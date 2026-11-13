@@ -132,6 +132,7 @@ header img{
 
 .footer{
 height:160px;
+padding:15px;
 background-color:var(--primary-color);
 border:3px solid black;
 display:flex;
