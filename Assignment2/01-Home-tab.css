@@ -1,0 +1,142 @@
+:root{
+--primary-color:#00B4D8;
+font-family: Arial, sans-serif;
+}
+
+*{
+padding:0px;
+margin:0px;
+}
+
+@media only screen and (min-width:768px){
+body{    background-color: rgb(243, 241, 241);}
+
+.navbar{
+border:2px solid black;
+height:75px;
+display:flex;
+background-color:var(--primary-color);
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0px;
+}
+#one{
+
+margin:8px;
+}
+#home{
+
+display:flex;
+marglin-left:5px;
+justify-content:space-between;
+}
+#logo{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+padding:10px;
+}
+
+a:visited{
+  color:red;
+}
+
+a:hover, a:active{
+border-radius: 4px;
+background-color:white;
+color:black;
+}
+
+header img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.footer{
+border-radius:8px;
+height:150px;
+background-color:var(--primary-color);
+border:3px solid black;
+display:flex;
+flex-direction:column;
+justify-content:center;
+width:95%;
+margin:auto;
+}
+
+.foot_container{
+display:flex;
+gap:10px;
+}
+.foot_container img{ 
+height:60px;
+width:60px; 
+border-radius:30%;
+}
+.contact{
+margin-bottom:30px;
+font-size:18px;
+}
+
+#welnote{
+font-size:24px;
+font-weight:bold;
+font-style:italic;
+padding:10px;
+}
+.main{
+margin:20px;
+margin-left:40px;
+padding:5px;
+grid-gap:16px;
+display:grid;
+grid-template-areas:"c1 c2 c3  ."
+                    "c4 c5 c6 c7 ";
+}
+
+
+#c1{ grid-area:c1;padding:4px; }
+#c2{ grid-area:c2;padding:4px; }
+#c3{ grid-area:c3; padding:4px;}
+#c4{ grid-area:c4; padding:4px;}
+#c5{ grid-area:c5; padding:4px;}
+#c6{ grid-area:c6; padding:4px;}
+#c7{ grid-area:c7; padding:4px;}
+
+.card{
+height:210px;
+border:1px solid black;
+border-radius:5%;
+overflow:auto;
+padding:4px;
+box-shadow:3px 4px 2px 2px var(--primary-color);
+}
+
+.card img{  
+width:95%;
+height:70%;
+border-radius:5px;
+}
+.cin{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.card:hover{
+ box-shadow: 0px 4px 15px rgba(0,150,0,0.3);
+}
+
+}
+

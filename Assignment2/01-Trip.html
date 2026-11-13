@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Vault - Trips</title>
+  <link rel="stylesheet" href="01-Trip.css">
+</head>
+<body id="top">
+
+  <header class="navbar">
+    <div class="brand">
+      <a href="01-Home.html">
+        <img src="Logo.jpeg" alt="Travel Vault logo">
+        <h2>Travel Vault</h2>
+      </a>
+    </div>
+      <a href="01-Home.html">Home</a>
+      <a href="trips.html" class="active">Trips</a>
+      <a href="Statistics.html">Stats</a>
+      <a href="01-Home.html">AI-service</a>
+    <div class="profile">
+      <a href="01-Home.html">
+        <img src="profile.png" alt="Profile"></a>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <section class="page-heading">
+      <div>
+        <h1>My Trips</h1>
+        <p>Explore your saved travel memories here.</p>
+      </div>
+      <a href="#add-trip" class="add-button">+ Add Trip</a>
+    </section>
+
+    <section class="search-section">
+      <form action="#trips" method="get" class="search-form">
+        <label class="visually-hidden" for="trip-search">Search trips</label>
+        <input id="trip-search" type="search" name="search"
+               placeholder="Search by trip name or place">
+
+        <label class="visually-hidden" for="trip-year">Filter by year</label>
+        <select id="trip-year" name="year">
+          <option value="">All Years</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+        </select>
+        <button type="submit">Filter</button>
+      </form>
+    </section>
+
+
+
+    <section class="trip-grid" id="trips" aria-label="My saved trips">
+
+      <a href="#islamabad-gallery" class="trip-card">
+        <img src="islamabad-01.jpg">
+        <div class="trip-details">
+          <h2>Islamabad</h2>
+          <p class="trip-date">2 Oct 2024 – 10 Oct 2024</p>
+          <p class="photo-count">13 Photos</p>
+        </div>
+      </a>
+
+      <a href="#naran-gallery" class="trip-card">
+        <img src="naran-01.jpg">
+        <div class="trip-details">
+          <h2>Naran Kaghan</h2>
+          <p class="trip-date">11 Oct 2024 – 22 Oct 2024</p>
+          <p class="photo-count">13 Photos</p>
+        </div>
+      </a>
+
+      <a href="#lahore-gallery" class="trip-card">
+        <img src="lahore-01.jpg">
+        <div class="trip-details">
+          <h2>Lahore</h2>
+          <p class="trip-date">Trip date not added</p>
+          <p class="photo-count">13 Photos</p>
+        </div>
+      </a>
+
+      <a href="#gilgit-gallery" class="trip-card">
+        <img src="gilgit-01.jpg">
+        <div class="trip-details">
+          <h2>Gilgit</h2>
+          <p class="trip-date">23 Oct 2024 – 29 Oct 2024</p>
+          <p class="photo-count">13 Photos</p>
+        </div>
+      </a>
+
+      <a href="#faisalabad-gallery" class="trip-card">
+        <img src="faisalabad-01.jpg">
+        <div class="trip-details">
+          <h2>Faisalabad</h2>
+          <p class="trip-date">Trip date not added</p>
+          <p class="photo-count">12 Photos</p>
+        </div>
+      </a>
+
+      <a href="#peshawar-gallery" class="trip-card">
+        <img src="peshawar-01.jpg">
+        <div class="trip-details">
+          <h2>Peshawar</h2>
+          <p class="trip-date">Trip date not added</p>
+          <p class="photo-count">12 Photos</p>
+        </div>
+      </a>
+
+      <a href="#quetta-gallery" class="trip-card">
+        <img src="quetta-01.jpg">
+        <div class="trip-details">
+          <h2>Quetta</h2>
+          <p class="trip-date">Trip date not added</p>
+          <p class="photo-count">12 Photos</p>
+        </div>
+      </a>
+
+      <a href="#kashmir-gallery" class="trip-card">
+        <img src="kashmir-01.jpg">
+        <div class="trip-details">
+          <h2>Kashmir</h2>
+          <p class="trip-date">Trip date not added</p>
+          <p class="photo-count">12 Photos</p>
+        </div>
+      </a>
+
+    </section>
+
+    <p class="gallery-message">
+       Select a trip card to jump to its related photo gallery below.
+    </p>
+
+
+    <section class="gallery-section" id="islamabad-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Islamabad Gallery</h2>
+          <p>13 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Memories from Islamabad, including its famous
+        mosque and other city views.
+      </p>
+      <div class="photo-grid">
+        <img src="islamabad-01.jpg">
+        <img src="islamabad-02.jpg">
+        <img src="islamabad-03.jpg">
+        <img src="islamabad-04.jpg">
+        <img src="islamabad-05.jpg">
+        <img src="islamabad-06.jpg">
+        <img src="islamabad-07.jpg">
+        <img src="islamabad-08.jpg">
+        <img src="islamabad-09.jpg">
+        <img src="islamabad-10.jpg">
+        <img src="islamabad-11.jpg">
+        <img src="islamabad-12.jpg">
+        <img src="islamabad-13.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="naran-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Naran Kaghan Gallery</h2>
+          <p>13 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Mountains , lakes, and beautiful natural views.
+      </p>
+      <div class="photo-grid">
+        <img src="naran-01.jpg">
+        <img src="naran-02.jpg">
+        <img src="naran-03.jpg">
+        <img src="naran-04.jpg">
+        <img src="naran-05.jpg">
+        <img src="naran-06.jpg">
+        <img src="naran-07.jpg">
+        <img src="naran-08.jpg">
+        <img src="naran-09.jpg">
+        <img src="naran-10.jpg">
+        <img src="naran-11.jpg">
+        <img src="naran-12.jpg">
+        <img src="naran-13.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="lahore-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Lahore Gallery</h2>
+          <p>13 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Memories of historical places, city walks, and local culture.
+      </p>
+      <div class="photo-grid">
+        <img src="lahore-01.jpg">
+        <img src="lahore-02.jpg">
+        <img src="lahore-03.jpg">
+        <img src="lahore-04.jpg">
+        <img src="lahore-05.jpg">
+        <img src="lahore-06.jpg">
+        <img src="lahore-07.jpg">
+        <img src="lahore-08.jpg">
+        <img src="lahore-09.jpg">
+        <img src="lahore-10.jpg">
+        <img src="lahore-11.jpg">
+        <img src="lahore-12.jpg">
+        <img src="lahore-13.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="gilgit-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Gilgit Gallery</h2>
+          <p>13 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Mountains and travel memories from Gilgit.
+      </p>
+      <div class="photo-grid">
+        <img src="gilgit-01.jpg">
+        <img src="gilgit-02.jpg">
+        <img src="gilgit-03.jpg">
+        <img src="gilgit-04.jpg">
+        <img src="gilgit-05.jpg">
+        <img src="gilgit-06.jpg">
+        <img src="gilgit-07.jpg">
+        <img src="gilgit-08.jpg">
+        <img src="gilgit-09.jpg">
+        <img src="gilgit-10.jpg">
+        <img src="gilgit-11.jpg">
+        <img src="gilgit-12.jpg">
+        <img src="gilgit-13.jpg" >
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="faisalabad-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Faisalabad Gallery</h2>
+          <p>12 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> City sights and memories from Faisalabad.
+      </p>
+      <div class="photo-grid">
+        <img src="faisalabad-01.jpg">
+        <img src="faisalabad-02.jpg">
+        <img src="faisalabad-03.jpg">
+        <img src="faisalabad-04.jpg">
+        <img src="faisalabad-05.jpg">
+        <img src="faisalabad-06.jpg">
+        <img src="faisalabad-07.jpg">
+        <img src="faisalabad-08.jpg">
+        <img src="faisalabad-09.jpg">
+        <img src="faisalabad-10.jpg">
+        <img src="faisalabad-11.jpg">
+        <img src="faisalabad-12.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="peshawar-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Peshawar Gallery</h2>
+          <p>12 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Historical places and city memories from Peshawar.
+      </p>
+      <div class="photo-grid">
+        <img src="peshawar-01.jpg">
+        <img src="peshawar-02.jpg">
+        <img src="peshawar-03.jpg">
+        <img src="peshawar-04.jpg">
+        <img src="peshawar-05.jpg">
+        <img src="peshawar-06.jpg">
+        <img src="peshawar-07.jpg">
+        <img src="peshawar-08.jpg">
+        <img src="peshawar-09.jpg">
+        <img src="peshawar-10.jpg">
+        <img src="peshawar-11.jpg">
+        <img src="peshawar-12.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="quetta-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Quetta Gallery</h2>
+          <p>12 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong>  travel memories from Quetta.
+      </p>
+      <div class="photo-grid">
+        <img src="quetta-01.jpg">
+        <img src="quetta-02.jpg">
+        <img src="quetta-03.jpg">
+        <img src="quetta-04.jpg">
+        <img src="quetta-05.jpg">
+        <img src="quetta-06.jpg">
+        <img src="quetta-07.jpg">
+        <img src="quetta-08.jpg">
+        <img src="quetta-09.jpg">
+        <img src="quetta-10.jpg">
+        <img src="quetta-11.jpg">
+        <img src="quetta-12.jpg">
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="kashmir-gallery">
+      <div class="gallery-heading">
+        <div>
+          <a href="#trips" class="back-link">← Back to trips</a>
+          <h2>Kashmir Gallery</h2>
+          <p>12 Photos</p>
+        </div>
+        <a href="#add-trip" class="upload-button">Upload Pics</a>
+      </div>
+      <p class="trip-notes">
+        <strong>Notes:</strong> Green valleys, mountains, and beautiful views of Kashmir.
+      </p>
+      <div class="photo-grid">
+        <img src="kashmir-01.jpg">
+        <img src="kashmir-02.jpg">
+        <img src="kashmir-03.jpg">
+        <img src="kashmir-04.jpg">
+        <img src="kashmir-05.jpg">
+        <img src="kashmir-06.jpg">
+        <img src="kashmir-07.jpg">
+        <img src="kashmir-08.jpg">
+        <img src="kashmir-09.jpg">
+        <img src="kashmir-10.jpg">
+        <img src="kashmir-11.jpg">
+        <img src="kashmir-12.jpg">
+      </div>
+    </section>
+
+    <!-- Add trip form -->
+    <section class="add-trip-section" id="add-trip">
+      <h2>Add a Trip</h2>
+      <p>Enter details for a new trip.</p>
+
+      <form action="#add-trip" method="get" class="add-trip-form">
+        <label for="trip-name">Trip Name</label>
+        <input type="text" id="trip-name" name="trip-name"
+               placeholder="Enter trip name">
+
+        <label for="start-date">Start Date</label>
+        <input type="date" id="start-date" name="start-date">
+
+        <label for="end-date">End Date</label>
+        <input type="date" id="end-date" name="end-date">
+
+        <label for="new-trip-notes">Trip Notes</label>
+        <textarea id="new-trip-notes" name="trip-notes" rows="3"
+                  placeholder="Write your trip notes"></textarea>
+
+        <button type="submit">Add Trip</button>
+      </form>
+
+    </section>
+
+  </main>
+
+  <!-- Footer matching the Home page -->
+  
+
+<footer class="footer">
+<div class="contact" >Contact Us</div>
+<div class="foot_container">
+<a class="mail" href="mail to:muhammadtayyab7541@gmail.com" target=_blank><img src="gmail_logo.jpg" alt="mail us"></a>
+<a class="facebook" href="https://www.facebook.com/share/1bocvXLiEo/" target=_blank><img src="facebook_logo.jpg" alt="facebook"></a>
+<a class="linkedin" href="https://www.linkedin.com/in/muhammad-tayyab-a54554364?utm_source=share_via&utm_content=profile&utm_medium=member_android" target=_blank><img src="linked-logo.jpg" alt="Linked In"></a>
+<a class="call" href="tel:+92303..." target=_blank><img src="call_logo.jpg" alt="call us"></a>
+</div>
+<div class="copyright">&copy;2026 Travel Vault. All Rights Reserved. All trademarks, logos, images, and content are the property of their respective owners.</div> 
+</footer>
+
+
+</body>
+</html>
