@@ -83,8 +83,10 @@ grid-template-columns:repeat(auto,1fr 1fr 1fr 1fr);
 padding:5px;
 grid-gap:5px;
 display:grid;
-grid-template-areas:"c1 c2 c3 c4"
-                    "c5 c6 c7 .";
+grid-template-areas:"c1 c2"
+                    "c3 c4"
+                    "c5 c6"
+                    "c7 .";
 }
 
 
