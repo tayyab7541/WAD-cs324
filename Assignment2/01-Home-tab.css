@@ -117,7 +117,7 @@ grid-template-areas:"c1 c2 c3  ."
 height:210px;
 border:1px solid black;
 border-radius:5%;
-overflow:auto;
+overflow:hidden;
 padding:4px;
 box-shadow:3px 4px 2px 2px var(--primary-color);
 }
